@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+    <h1>Preencha os seus dados:</h1>
+    <form action="/cadastro" method="POST">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="genero">Gênero:</label>
+            <input type="radio" name="genero" id="genero" value="Masculino">
+            <label for="genero">Masculino</label>
+            <input type="radio" name="genero" id="genero" value="Feminino">
+            <label for="genero">Feminino</label>
+            <input type="radio" name="genero" id="genero" value="Outro">
+            <label for="genero">Outro</label>
+        </div>
+        <div>
+            <label for="comoConheceu">Como conheceu nosso site:</label>
+            <input type="checkbox" name="comoConheceu" id="comoConheceu" value="Redes sociais">
+            <label for="comoConheceu">Redes sociais</label>
+            <input type="checkbox" name="comoConheceu" id="comoConheceu" value="TV">
+            <label for="comoConheceu">TV</label>
+            <input type="checkbox" name="comoConheceu" id="comoConheceu" value="Outro">
+            <label for="comoConheceu">Outro</label>
+        </div>
+        <div>
+            <label for="senha">Crie uma senha:</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>
