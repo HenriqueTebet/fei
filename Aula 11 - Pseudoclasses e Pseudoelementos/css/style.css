@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(143, 110, 175);
+}
+
+.p1 {
+    margin: 100% solid rgb(68, 7, 125);
+    border: 100% solid rgb(68, 7, 125);
+    padding: 100% solid rgb(68, 7, 125);
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 200%;
+    color: rgb(100, 3, 152);
+    background-color: rgb(0, 0, 0);
+    width: 21%;
+}
+
+.item-radio {
+    background-color: blueviolet;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    min-width: 130px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 30px 25px;
+    font-size: 80%;
+    font-weight: 600;
+    color: black;
+    transition: 0.5s;
+}
+
+label::before {
+   width: 20px;
+   height: 20px;
+   display: block;
+   background-color: red;
+   float: left;
+}
+
